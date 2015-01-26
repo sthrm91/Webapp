@@ -44,19 +44,18 @@ $(document).ready(function(){
         $('#mainBody').hide();
         $('#activityBody').show();
         var postData = "";
-        //alert($.cookie('id'));
-        $('td').addClass("{ color : black;}");
+        
+        $('#activitiesSection td').addClass("{ color : black}");
         $('#activitiesSection').jtable({
             title: 'Activity List',
-            paging: true,
-            pageSize: 10,
+            paging: false,
             sorting: true,
             multiSorting: true,
             defaultSorting: 'title',
             actions: {
                 listAction : function (postData, jtParams) {
                     console.log("Loading from custom function...");
-                    $('td').addClass("{ color: black; }");
+                    $('td').addClass("data");
                     return $.Deferred(function ($dfd) {
                         $.ajax({
                             url: 'todo/activities',
