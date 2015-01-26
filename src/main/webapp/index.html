@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2015 by sthrm91 (http://jsbin.com/xazepa/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Todo-App</title>
+  <script src="jquery/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript"  src="jquery/application.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="jtable.2.4.0/jquery.jtable.min.js"></script>
+  <script src="jtable.2.4.0/jquery.jtable.js"></script>
+  <link href="jtable.2.4.0/themes/metro/blue/jtable.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">    
+            <div id="header">
+                <h1 id="header" > Todo<span>-App<span></br>
+                <span class="tagline"> Your personal activity tracker</span>
+                </h1>
+            </div>  
+
+            <div id="mainBody">
+                <div id="loginForm">
+                    <p> <input type="text" id="loginName" placeholder="UserName"/> </p>
+                    <p> <input type="password" id="loginPassword" placeholder="Password"/> </p>
+                    <p> <input type="button" id="loginSubmit" value="Login" /> 
+                        <a href="">Sign up</a></p>
+                </div>  
+                <div id="registrationForm"> 
+                    <p> <input type="text" id="newLoginName" placeholder="Enter a loginName"/> </p>
+                    <p> <input type="password" id="newLoginPassword" placeholder="Enter a password"/> </p>
+                    <p> <input type="password" id="newLoginRePassword" placeholder="Re-enter password"/> </p>
+                    <p> <input type="phone" id="newLoginPhoneNumber" placeholder="Enter phone Number"/> </p>
+                    <p> <input type="button" id="registerSubmit" value="Register"/> 
+                        <a href="">Login</a></p>
+                </div>    
+            </div>
+            
+            <div id="activityBody">
+                <div id="activityHeader">
+                    <input type="text" placeholder="Search in your activities.." id="activityQuery"/>
+                    <input type="button" value="Search" id="searchActivities"/>
+                </div>
+                <div id="activitiesSection">
+                   
+                </div>
+            </div>    
+            
+            <div id="footer">   
+                <p>Developed with MongoDb, Twilio Messaging Service and Searchly </p>
+                <p>Contact Us</p>    
+            </div> 
+    </div>
+</body>
+</html>

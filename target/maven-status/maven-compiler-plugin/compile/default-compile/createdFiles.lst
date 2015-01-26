@@ -1,0 +1,13 @@
+com/todo/users/UserProfile.class
+com/todo/exceptions/AccountCreationException.class
+com/todo/activities/ActivityManagementService.class
+com/todo/users/UserProfileConverter.class
+com/todo/users/UserRestResource.class
+com/todo/activities/ActivitiesRestResource.class
+com/todo/persistence/MongoCheck.class
+com/todo/activities/ActivityConverter.class
+com/todo/users/ValidationAndRegistrationService.class
+com/todo/activities/Activity.class
+com/todo/app/SearchApplication.class
+com/todo/activities/MongoDBActivityDAO.class
+com/todo/users/MongoDBUserProfileDAO.class
