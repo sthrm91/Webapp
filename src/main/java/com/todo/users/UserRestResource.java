@@ -42,7 +42,7 @@ public class UserRestResource {
     	}
     	else
     	{
-    		return Response.status(Status.BAD_REQUEST).build();
+    		return Response.status(Status.UNAUTHORIZED).entity("wrong credentials").build();
     	}
     }
     
